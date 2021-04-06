@@ -289,6 +289,7 @@ class CustomApps(Cog):
             text=f"{ctx.author.name}#{ctx.author.discriminator} UserID: {ctx.author.id})"
         )
         embed.title = f"User: {ctx.author.name}#{ctx.author.discriminator} | ID: ({ctx.author.id})"
+        embed.add_field(name="Desired position:", value=position.content, inline=True)
         if check_1 is not None:
             embed.add_field(name=app_data["question8"], value=answer1.content, inline=False)
         if check_2 is not None:
