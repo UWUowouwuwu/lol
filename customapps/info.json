@@ -1,0 +1,19 @@
+{
+    "name": "CustomApps",
+    "short": "Customize Staff apps for your server",
+    "description": "Add additional questions of your choice to staff applications making them specific to your server.",
+    "install_msg": "Thanks for installing CustomApps.",
+    "author": [
+        "me"
+    ],
+    "required_cogs": {},
+    "requirements": [],
+    "tags": [
+        "staff-apps",
+        "tools",
+        "utility"
+    ],
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}
