@@ -162,7 +162,7 @@ class CustomApps(Cog):
                 except discord.HTTPException:
                     return await ctx.send(f"Thanks for nothing, {ctx.author.mention}")
                 return
-       check_5 = app_data["question5"]
+        check_5 = app_data["question5"]
         if check_5 is not None:
             await ctx.author.send(app_data["question5"])
             try:
