@@ -291,19 +291,19 @@ class CustomApps(Cog):
         embed.title = f"User: {ctx.author.name}#{ctx.author.discriminator} | ID: ({ctx.author.id})"
         embed.add_field(name="Desired position:", value=position.content, inline=True)
         if check_1 is not None:
-            embed.add_field(name=app_data["question8"], value=answer1.content, inline=False)
+            embed.add_field(name=app_data["question1"], value=answer1.content, inline=False)
         if check_2 is not None:
-            embed.add_field(name=app_data["question8"], value=answer2.content, inline=False)
+            embed.add_field(name=app_data["question2"], value=answer2.content, inline=False)
         if check_3 is not None:
-            embed.add_field(name=app_data["question8"], value=answer3.content, inline=False)
+            embed.add_field(name=app_data["question3"], value=answer3.content, inline=False)
         if check_4 is not None:
-            embed.add_field(name=app_data["question8"], value=answer4.content, inline=False)
+            embed.add_field(name=app_data["question4"], value=answer4.content, inline=False)
         if check_5 is not None:
-            embed.add_field(name=app_data["question8"], value=answer5.content, inline=False)
+            embed.add_field(name=app_data["question5"], value=answer5.content, inline=False)
         if check_6 is not None:
-            embed.add_field(name=app_data["question8"], value=answer6.content, inline=False)
+            embed.add_field(name=app_data["question6"], value=answer6.content, inline=False)
         if check_7 is not None:
-            embed.add_field(name=app_data["question8"], value=answer7.content, inline=False)
+            embed.add_field(name=app_data["question7"], value=answer7.content, inline=False)
         if check_8 is not None:
             embed.add_field(name=app_data["question8"], value=answer8.content, inline=False)
         if check_9 is not None:
